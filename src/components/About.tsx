@@ -22,9 +22,9 @@ export default function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 shadow-xl">
+            <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-600/70 to-cyan-600/70 backdrop-blur-2xl rounded-2xl p-6 shadow-xl border border-white/40">
               <p className="text-white font-bold text-lg">4+ Years</p>
-              <p className="text-blue-100 text-sm">Industry Experience</p>
+              <p className="text-blue-50 text-sm">Industry Experience</p>
             </div>
           </div>
 

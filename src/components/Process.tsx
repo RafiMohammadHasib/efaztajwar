@@ -71,17 +71,17 @@ export default function Process() {
               />
             </div>
 
-            <div className="absolute -bottom-8 -left-8 bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-2xl max-w-xs border border-white/40">
+            <div className="absolute -bottom-8 -left-8 bg-white/30 backdrop-blur-2xl rounded-2xl p-6 shadow-2xl max-w-xs border border-white/60">
               <div className="flex items-center space-x-4 mb-3">
-                <div className="w-12 h-12 bg-green-500/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-green-400/30">
+                <div className="w-12 h-12 bg-green-500/30 backdrop-blur-md rounded-full flex items-center justify-center border border-green-400/40 shadow-lg">
                   <CheckCircle2 className="text-green-600" size={24} />
                 </div>
                 <div>
                   <p className="font-bold text-slate-900 text-lg">100%</p>
-                  <p className="text-sm text-gray-600">Success Rate</p>
+                  <p className="text-sm text-gray-700">Success Rate</p>
                 </div>
               </div>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-700">
                 All our partners achieve their brand goals within 90 days
               </p>
             </div>
