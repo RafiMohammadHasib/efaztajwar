@@ -26,7 +26,7 @@ const insights = [
 
 export default function Insights() {
   return (
-    <div id="insights" className="py-24 bg-white">
+    <div id="insights" className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
@@ -45,7 +45,7 @@ export default function Insights() {
           {insights.map((insight, index) => (
             <div
               key={index}
-              className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+              className="group bg-white/80 backdrop-blur-lg rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer border border-white/40"
             >
               <div className="aspect-[4/3] overflow-hidden relative">
                 <img
@@ -53,7 +53,7 @@ export default function Insights() {
                   alt={insight.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute top-4 right-4 bg-white rounded-full px-4 py-2 text-sm font-medium text-slate-900">
+                <div className="absolute top-4 right-4 bg-white/80 backdrop-blur-md rounded-full px-4 py-2 text-sm font-medium text-slate-900 border border-white/60">
                   {insight.readTime}
                 </div>
               </div>

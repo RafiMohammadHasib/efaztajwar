@@ -17,7 +17,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <div className="py-24 bg-gradient-to-b from-gray-50 to-white">
+    <div className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
@@ -71,9 +71,9 @@ export default function Process() {
               />
             </div>
 
-            <div className="absolute -bottom-8 -left-8 bg-white rounded-2xl p-6 shadow-2xl max-w-xs">
+            <div className="absolute -bottom-8 -left-8 bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-2xl max-w-xs border border-white/40">
               <div className="flex items-center space-x-4 mb-3">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-green-500/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-green-400/30">
                   <CheckCircle2 className="text-green-600" size={24} />
                 </div>
                 <div>

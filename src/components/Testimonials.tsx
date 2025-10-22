@@ -75,7 +75,7 @@ export default function Testimonials() {
         </div>
 
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-2 bg-blue-50 px-6 py-3 rounded-full">
+          <div className="inline-flex items-center space-x-2 bg-white/60 backdrop-blur-md px-6 py-3 rounded-full border border-white/60">
             <div className="flex -space-x-2">
               {testimonials.map((t, i) => (
                 <img

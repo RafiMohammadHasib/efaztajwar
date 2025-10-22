@@ -68,7 +68,7 @@ export default function Activities() {
           href={videos[0].link}
           target="_blank"
           rel="noopener noreferrer"
-          className="block relative rounded-3xl overflow-hidden shadow-2xl group cursor-pointer"
+          className="block relative rounded-3xl overflow-hidden shadow-2xl group cursor-pointer border border-white/20"
         >
           <div className="aspect-video relative">
             <img
@@ -86,12 +86,12 @@ export default function Activities() {
 
             <div className="absolute top-6 right-6">
               {videos[0].platform === 'facebook' ? (
-                <div className="bg-blue-600 text-white px-4 py-2 rounded-full flex items-center space-x-2">
+                <div className="bg-blue-600/90 backdrop-blur-md text-white px-4 py-2 rounded-full flex items-center space-x-2 border border-white/20">
                   <Facebook size={16} />
                   <span className="text-sm font-medium">Facebook</span>
                 </div>
               ) : (
-                <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-2 rounded-full flex items-center space-x-2">
+                <div className="bg-gradient-to-r from-purple-600/90 to-pink-600/90 backdrop-blur-md text-white px-4 py-2 rounded-full flex items-center space-x-2 border border-white/20">
                   <Instagram size={16} />
                   <span className="text-sm font-medium">Instagram</span>
                 </div>
@@ -116,7 +116,7 @@ export default function Activities() {
               href={video.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
+              className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer border border-white/20"
             >
               <div className="aspect-video relative">
                 <img

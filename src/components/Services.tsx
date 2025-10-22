@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div id="services" className="py-24 bg-white">
+    <div id="services" className="py-24 bg-transparent">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
@@ -50,7 +50,7 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                className="group relative bg-white/80 backdrop-blur-lg rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-white/40"
               >
                 <div className="aspect-[3/4] relative overflow-hidden">
                   <img
