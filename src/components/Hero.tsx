@@ -87,14 +87,14 @@ export default function Hero() {
               />
             </div>
 
-            <div className="absolute -bottom-6 -right-6 bg-white/80 backdrop-blur-xl rounded-2xl p-6 shadow-2xl transform hover:scale-110 hover:-translate-y-2 transition-all duration-300 group border border-white/40">
+            <div className="absolute -bottom-6 -right-6 bg-white/30 backdrop-blur-2xl rounded-2xl p-6 shadow-2xl transform hover:scale-110 hover:-translate-y-2 transition-all duration-300 group border border-white/60">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300 shadow-lg">
                   <span className="text-white font-bold text-xl">ET</span>
                 </div>
                 <div>
                   <p className="font-bold text-slate-900">Efaz Tajwar</p>
-                  <p className="text-sm text-gray-600">Managing Director</p>
+                  <p className="text-sm text-gray-700">Managing Director</p>
                 </div>
               </div>
             </div>
