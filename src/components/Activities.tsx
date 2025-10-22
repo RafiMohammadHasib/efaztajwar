@@ -24,7 +24,7 @@ const videos = [
   },
   {
     thumbnail: '/Screenshot 2025-10-22 135247.png',
-    title: 'Behind the Scenes',
+    title: '5 in-demand skills to learn in 2025.',
     description: 'Follow on Instagram',
     link: 'https://www.facebook.com/reel/1314377623630705',
     platform: 'instagram',
