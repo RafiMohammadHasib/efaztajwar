@@ -15,11 +15,11 @@ export default function Hero() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-300 hover:text-white transition-colors">Home</a>
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
-            <a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a>
-            <a href="#insights" className="text-gray-300 hover:text-white transition-colors">Blog</a>
-            <a href="#contact" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors">
+            <a href="#home" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">Home</a>
+            <a href="#about" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">About</a>
+            <a href="#services" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">Services</a>
+            <a href="#insights" className="text-gray-300 hover:text-white transition-all duration-300 hover:scale-110">Blog</a>
+            <a href="https://wa.me/+8801339844255" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-600 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-2xl">
               Book a Consultation
             </a>
           </div>
@@ -33,13 +33,13 @@ export default function Hero() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-lg border-t border-white/10 py-4 px-6">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-lg border-t border-white/10 py-4 px-6 rounded-b-2xl mt-2">
             <div className="flex flex-col space-y-4">
-              <a href="#home" className="text-gray-300 hover:text-white transition-colors">Home</a>
-              <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
-              <a href="#services" className="text-gray-300 hover:text-white transition-colors">Services</a>
-              <a href="#insights" className="text-gray-300 hover:text-white transition-colors">Blog</a>
-              <a href="#contact" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors text-center">
+              <a href="#home" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">Home</a>
+              <a href="#about" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">About</a>
+              <a href="#services" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">Services</a>
+              <a href="#insights" className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2">Blog</a>
+              <a href="https://wa.me/+8801339844255" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-6 py-2 rounded-full font-medium hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-600 hover:text-white transition-all duration-300 hover:scale-105 text-center">
                 Book a Consultation
               </a>
             </div>
@@ -50,47 +50,46 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-block">
-              <span className="text-sm font-medium text-gray-300 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
+            <div className="inline-block animate-fade-in-up">
+              <span className="text-sm font-medium text-gray-300 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-all duration-300 hover:scale-105">
                 Managing Director of Euro Marble and Granite Ltd. & Euro IT
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight animate-fade-in-up animation-delay-200">
               You're More Than a Brand.
               <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 hover:from-cyan-400 hover:to-blue-400 transition-all duration-500">
                 You're a Movement.
               </span>
             </h1>
 
-            <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
+            <p className="text-xl text-gray-300 leading-relaxed max-w-xl animate-fade-in-up animation-delay-400">
               Transform your vision into reality with strategic leadership and innovative digital solutions that drive meaningful impact.
             </p>
 
-            <div className="flex flex-wrap gap-4">
-              <a href="#contact" className="bg-white text-slate-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 shadow-xl">
-                Start Your Journey
-              </a>
-              <a href="#about" className="border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white/10 transition-all backdrop-blur-sm">
-                Learn More
+            <div className="flex flex-wrap gap-4 animate-fade-in-up animation-delay-600">
+              <a href="#about" className="group border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-2xl relative overflow-hidden">
+                <span className="relative z-10">Learn More</span>
+                <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                <span className="relative z-10">Learn More</span>
               </a>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-cyan-500/10"></div>
+          <div className="relative animate-fade-in-up animation-delay-400">
+            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 hover:rotate-2 transition-all duration-500 group">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 group-hover:from-blue-500/30 group-hover:to-cyan-500/30 transition-all duration-500"></div>
               <img
                 src="/474620451_122098027730749911_8460352468314959962_n.jpg"
                 alt="Efaz Tajwar"
-                className="relative w-full h-full object-cover"
+                className="relative w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
             </div>
 
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-2xl transform hover:scale-105 transition-transform">
+            <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-2xl transform hover:scale-110 hover:-translate-y-2 transition-all duration-300 group">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
                   <span className="text-white font-bold text-xl">ET</span>
                 </div>
                 <div>
