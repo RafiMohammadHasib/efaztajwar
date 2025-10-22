@@ -8,9 +8,9 @@ export default function Hero() {
     <div className="relative min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDUpIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-30"></div>
 
-      <nav className="relative z-50 px-6 py-6">
+      <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-6 bg-slate-900/80 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="text-white font-bold text-xl tracking-tight">
+          <div className="text-white font-bold text-3xl tracking-tight">
             Efaz Tajwar
           </div>
 
@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
 
         {mobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-slate-800 border-t border-slate-700 py-4 px-6">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-slate-900/95 backdrop-blur-lg border-t border-white/10 py-4 px-6">
             <div className="flex flex-col space-y-4">
               <a href="#home" className="text-gray-300 hover:text-white transition-colors">Home</a>
               <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
@@ -47,7 +47,7 @@ export default function Hero() {
         )}
       </nav>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="inline-block">
