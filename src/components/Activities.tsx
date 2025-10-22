@@ -17,7 +17,7 @@ const videos = [
   },
   {
     thumbnail: '/Screenshot 2025-10-22 140443.png',
-    title: 'Digital Transformation Stories',
+    title: 'Inspirational life moments from Milka Singh .',
     description: 'Latest updates on Instagram',
     link: 'https://www.facebook.com/reel/565364049877276',
     platform: 'instagram',
