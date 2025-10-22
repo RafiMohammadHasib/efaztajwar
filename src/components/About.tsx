@@ -23,7 +23,7 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 shadow-xl">
-              <p className="text-white font-bold text-lg">4 Years</p>
+              <p className="text-white font-bold text-lg">4+ Years</p>
               <p className="text-blue-100 text-sm">Industry Experience</p>
             </div>
           </div>
