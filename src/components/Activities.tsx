@@ -3,7 +3,7 @@ import { Play, Instagram, Facebook } from 'lucide-react';
 const videos = [
   {
     thumbnail: '/517388899_122145872396749911_1339317509963292009_n.jpg',
-    title: 'Elon Musk- The man whose vision, idea and hardwork changed the work.',
+    title: 'Elon Musk - The man whose vision, idea and hardwork changed the work.',
     description: 'Watch on Facebook',
     link: 'https://www.facebook.com/reel/2203285923485223',
     platform: 'facebook',
