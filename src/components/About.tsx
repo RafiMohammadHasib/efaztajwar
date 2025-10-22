@@ -1,4 +1,4 @@
-import { MapPin, GraduationCap, Home, Link as LinkIcon } from 'lucide-react';
+import { MapPin, GraduationCap, Home, Link as LinkIcon, Facebook, Instagram, Linkedin } from 'lucide-react';
 
 export default function About() {
   return (
@@ -23,18 +23,18 @@ export default function About() {
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-6 shadow-xl">
-              <p className="text-white font-bold text-lg">15+ Years</p>
+              <p className="text-white font-bold text-lg">4 Years</p>
               <p className="text-blue-100 text-sm">Industry Experience</p>
             </div>
           </div>
 
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              As a Managing Director and Digital Creator, I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
+              As the Managing Director of Euro Marble and Granite Ltd. and Euro IT, I specialize in helping ambitious professionals and businesses build powerful brands that resonate with their audience and drive sustainable growth.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              With over 15 years of experience in strategic leadership and digital innovation, I've helped hundreds of clients transform their vision into reality through tailored solutions and proven methodologies.
+              With 4 years of experience in strategic leadership and digital innovation, I've helped numerous clients transform their vision into reality through tailored solutions and proven methodologies.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 pt-6">
@@ -65,15 +65,29 @@ export default function About() {
               <div className="flex items-start space-x-3 bg-white p-4 rounded-xl shadow-sm border border-gray-100">
                 <LinkIcon className="text-blue-600 flex-shrink-0 mt-1" size={20} />
                 <div>
-                  <p className="font-semibold text-slate-900">Websites</p>
-                  <p className="text-sm text-gray-600">euroitechnology.com</p>
+                  <p className="font-semibold text-slate-900">Companies</p>
+                  <div className="space-y-1">
+                    <a href="https://euromarbleandgranite.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 block">euromarbleandgranite.com</a>
+                    <a href="https://euroitechnology.com" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-600 hover:text-blue-700 block">euroitechnology.com</a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <a href="#contact" className="inline-block bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all hover:scale-105 mt-6">
-              Schedule a Call
-            </a>
+            <div className="flex items-center space-x-4 pt-6">
+              <p className="text-sm font-semibold text-slate-900">Connect with me:</p>
+              <div className="flex space-x-3">
+                <a href="https://www.facebook.com/efaz.tajwar.7" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                  <Facebook className="text-blue-600" size={20} />
+                </a>
+                <a href="https://www.instagram.com/efaz_tajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                  <Instagram className="text-blue-600" size={20} />
+                </a>
+                <a href="https://www.linkedin.com/in/efaz-tajwar" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                  <Linkedin className="text-blue-600" size={20} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

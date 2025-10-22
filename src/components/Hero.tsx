@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-block">
               <span className="text-sm font-medium text-gray-300 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
-                Managing Director & Digital Creator
+                Managing Director of Euro Marble and Granite Ltd. & Euro IT
               </span>
             </div>
 
