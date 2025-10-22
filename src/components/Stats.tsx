@@ -1,10 +1,10 @@
 import { TrendingUp, Users, Award, Briefcase } from 'lucide-react';
 
 const stats = [
-  { icon: TrendingUp, value: '200+', label: 'Projects Delivered' },
-  { icon: Users, value: '85+', label: 'Happy Clients' },
-  { icon: Award, value: '4', label: 'Years Experience' },
-  { icon: Briefcase, value: '500+', label: 'Success Stories' },
+  { icon: TrendingUp, value: '100+', label: 'Projects Delivered' },
+  { icon: Users, value: '50+', label: 'Happy Clients' },
+  { icon: Award, value: '4+', label: 'Years Experience' },
+  { icon: Briefcase, value: '200+', label: 'Success Stories' },
 ];
 
 export default function Stats() {
