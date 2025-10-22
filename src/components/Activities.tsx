@@ -5,7 +5,7 @@ const videos = [
     thumbnail: '/517388899_122145872396749911_1339317509963292009_n.jpg',
     title: 'Building Your Personal Brand in the Digital Age',
     description: 'Keynote speech at Digital Leadership Summit 2024',
-    link: 'https://www.facebook.com/efaztajwar',
+    link: 'https://www.facebook.com/reel/2203285923485223',
     platform: 'facebook',
   },
   {
