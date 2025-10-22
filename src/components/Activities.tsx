@@ -26,7 +26,7 @@ const videos = [
     thumbnail: '/Screenshot 2025-10-22 135247.png',
     title: 'Behind the Scenes',
     description: 'Follow on Instagram',
-    link: 'https://www.instagram.com/efaztajwar',
+    link: 'https://www.facebook.com/reel/2203285923485223',
     platform: 'instagram',
   },
 ];
