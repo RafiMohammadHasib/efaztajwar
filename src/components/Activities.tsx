@@ -10,7 +10,7 @@ const videos = [
   },
   {
     thumbnail: '/499713655_122134492178749911_392058730984465029_n.jpg',
-    title: 'Leadership Insights & Business Strategy',
+    title: 'What is Economics of Scale business strategy ?',
     description: 'Watch on Facebook',
     link: 'https://www.facebook.com/reel/2567428213589318',
     platform: 'facebook',
