@@ -52,7 +52,7 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-block animate-fade-in-up">
               <span className="text-sm font-medium text-gray-300 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white/20 transition-all duration-300 hover:scale-105">
-                MD of Euro Marble and Granite Ltd. & Euro IT
+                Director of Euro Marble and Granite Ltd. & Euro IT
               </span>
             </div>
 
