@@ -72,7 +72,7 @@ export default function Hero() {
               <a href="#about" className="group border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300 backdrop-blur-sm hover:scale-110 hover:shadow-2xl relative overflow-hidden">
                 <span className="relative z-10">Learn More</span>
                 <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-                <span className="relative z-10">Learn More</span>
+                
               </a>
             </div>
           </div>
