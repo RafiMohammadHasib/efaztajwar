@@ -26,7 +26,7 @@ const videos = [
     thumbnail: '/Screenshot 2025-10-22 135247.png',
     title: 'Behind the Scenes',
     description: 'Follow on Instagram',
-    link: 'https://www.facebook.com/reel/2203285923485223',
+    link: 'https://www.facebook.com/reel/1314377623630705',
     platform: 'instagram',
   },
 ];
